@@ -23,6 +23,7 @@ let content = document.getElementById("content");
  */
 function updateContentWithEventObjectTarget(eventObject){
     // code here
+    content.innerText = eventObject.target;
 }
 
 
